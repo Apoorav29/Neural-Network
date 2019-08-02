@@ -1,2 +1,3 @@
 # Neural-Network
-Neural Network implemented in python. The network uses gradient descent with different activation functions.
+The neural network is implementede in python using gradient descent.The neural network model runs based on three steps:- forward propagation,
+backward propagation and updation of parameters based on gradient changes..In forward propagation, The activations for all layers of model are evaluated successively. The choice of activation function can be either sigmoid, ReLU, tanh. The errors are computed for all the layers using above evaluated parameters. The gradient changes are then evaluated and the weight parameters are adjusted according to the values of learning parameters and gradient obtained above. The neural network model used 3 hidden layers with each layer containing 128 nodes. 
